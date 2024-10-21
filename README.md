@@ -53,6 +53,6 @@ Este proyecto es un excelente ejemplo de cómo los microcontroladores como el ES
 
 
 
-
+![Grua](https://github.com/Dabinchy/Arduino-electronica/blob/main/img/Grua-6.jpeg)
 
 
