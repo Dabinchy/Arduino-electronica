@@ -5,11 +5,11 @@ Este proyecto implementa un sistema de control remoto para una grúa a través d
 ## 🚀 Características Principales
 
 1. **Control Total de la Grúa**:
-    - El sistema ofrece dos menús funcionales para controlar diferentes partes de la grúa (movimientos arriba/abajo, izquierda/derecha).
+    - El sistema ofrece tres menús funcionales para controlar diferentes partes de la grúa (6 motores -cable, brazo, base, puente y movimiento).
     - Cada botón está diseñado para una respuesta rápida y precisa.
 
-2. **Control de las Ruedas**:
-    - El tercer menú se dedica al control de las ruedas de la grúa, permitiendo desplazamientos en varias direcciones.
+2. **Control del movimiento**:
+    - El tercer menú se dedica al control del movimiento de la grúa, permitiendo desplazamientos en varias direcciones.
     - Incluye botones para avanzar, retroceder, girar a la izquierda y a la derecha.
 
 3. **Función de Detener (Stop) Inmediato**:
@@ -22,9 +22,10 @@ Este proyecto implementa un sistema de control remoto para una grúa a través d
 ## 🛠️ Requisitos
 
 - **ESP32**: El microcontrolador ESP32 es el encargado de alojar la interfaz web y recibir los comandos enviados por el usuario.
+2. **L298N**: Un controlador de motores dual que permite controlar el movimiento de motores de corriente continua. El L298N puede manejar hasta dos motores a la vez Es ideal para proyectos que requieren el control de motores de corriente continua de 5V a 35V, y puede manejar una corriente máxima de 2A por canal.
 - **Conexión Wi-Fi**: Es necesario que el ESP32 esté conectado a una red Wi-Fi para permitir la interacción remota.
 - **Navegador Web**: Cualquier dispositivo con un navegador web (computadora, tablet, smartphone) puede ser utilizado para controlar la grúa.
-
+  
 ## 📂 Estructura del Proyecto
 
 El código del proyecto se divide en dos partes principales:
