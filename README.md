@@ -39,9 +39,10 @@ Este proyecto tiene como objetivo proporcionar un sistema de control remoto conf
 
 ## 💻 Cómo Empezar
 
-1. Clona este repositorio:
+1. Clona estos repositorios:
     ```bash
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone https://github.com/Dabinchy/Arduino-electronica/blob/main/grua.ino
+    git clone https://github.com/Dabinchy/Arduino-electronica/blob/main/index.h
     ```
 2. Sube el código al ESP32 usando el IDE de Arduino o PlatformIO.
 3. Conecta el ESP32 a una red Wi-Fi y accede a la interfaz web desde cualquier navegador introduciendo la IP asignada al dispositivo.
